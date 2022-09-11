@@ -34,6 +34,11 @@ public class GameManager : MonoBehaviour
         return isGameOver;
     }
 
+    public int GetCollectibles()
+    {
+        return collectibles;
+    }
+
     public bool HasCollectedAll()
     {
         if(collectibles == allCollectibles)
